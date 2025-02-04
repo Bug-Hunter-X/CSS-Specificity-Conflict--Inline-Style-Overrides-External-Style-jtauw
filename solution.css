@@ -1,0 +1,6 @@
+To resolve this, use more specific CSS selectors or the !important declaration:
+
+/* Solution 1: Using more specific selectors */
+#myDiv { background-color: rgba(255, 0, 0, 0.5); }
+/* Solution 2: Using !important (less recommended)*/
+#myDiv { background-color: rgba(255, 0, 0, 0.5) !important; }
